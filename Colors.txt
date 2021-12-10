@@ -1,0 +1,3 @@
+Main color: #fbc101
+
+Azul la em baixo: #08222A;
