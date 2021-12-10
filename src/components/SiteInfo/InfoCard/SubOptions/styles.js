@@ -10,6 +10,7 @@ export const InfoWrapper = styled.div`
 `;
 
 export const Info = styled.div`
+  cursor: pointer;
   justify-content: space-between;
   margin: 0.6rem 0;
   width: 100%;
