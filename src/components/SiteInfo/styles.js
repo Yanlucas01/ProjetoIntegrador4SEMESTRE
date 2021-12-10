@@ -26,7 +26,7 @@ export const ImgWrapper = styled.div`
 `;
 
 export const SocialTitle = styled.div`
-  font-size: 18px;
+  font-size: 20px;
   margin-right: 5%;
   height: 100%;
   display: flex;
