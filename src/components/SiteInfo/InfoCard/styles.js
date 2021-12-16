@@ -1,5 +1,4 @@
-import styled from "styled-components";
-import { SubTitle } from "../../Description/styles";
+import styled from "styled-components"; 
 
 export const Wrapper = styled.div`
   margin: 9rem 0 0 0;

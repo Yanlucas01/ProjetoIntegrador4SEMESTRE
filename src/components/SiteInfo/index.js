@@ -19,9 +19,9 @@ import TwitterIcon from "../../assets/TwitterIcon.png";
 import InfoCard from "./InfoCard";
 import SubOptions from "./InfoCard/SubOptions";
 
-export default function SiteInfo() {
+export default function SiteInfo({ BackgroundColor }) {
   return (
-    <Wrapper>
+    <Wrapper BackgroundColor={BackgroundColor}>
       <WhiteWrapper>
         <Header>
           <ImgWrapper>

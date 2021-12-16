@@ -1,14 +1,21 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   padding: 2rem;
   background-color: #08222a;
+
+  ${({ BackgroundColor }) =>
+    BackgroundColor &&
+    css`
+      background-color: ${BackgroundColor};
+    `}
 `;
 export const WhiteWrapper = styled.div`
   width: 100%;
   padding: 8rem;
   border-radius: 8px;
   background-color: #fff;
+  box-shadow: 2px 5px 15px 2px rgba(0, 0, 0, 0.2); 
 `;
 export const Header = styled.div`
   width: 100%;
